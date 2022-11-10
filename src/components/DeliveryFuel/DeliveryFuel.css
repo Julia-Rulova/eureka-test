@@ -1,0 +1,202 @@
+.fuel {
+    width: calc(100% - 160px);
+    padding: 74px 160px;
+    background-color: #F9F9F9;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.fuel__title {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    color: #000000;
+    margin: 0 0 34px;
+    padding: 0;
+}
+
+.fuel__form-container {
+    margin-right: 71px;
+}
+
+.fuel__input-container {
+    width: 409px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 0 16px;
+}
+
+.fuel__input-label {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    color: #000000;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
+
+.fuel__input {
+    width: calc(100% - 30px);
+    height: 16px;
+    background: #FFFFFF;
+    border: 1px solid #D5D5D5;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #565656;
+    margin-top: 8px;
+    padding: 13px 15px 16px 15px;
+    outline: none;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+.fuel__input_black {
+    color: #000000;
+}
+
+.fuel__custom-select {
+    width: 409px;
+    height: 46px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+    margin-top: 8px;
+    border: 1px solid #D5D5D5;
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    background-color: #FFFFFF;
+}
+
+.fuel__select-arrow {
+    width: 14px;
+    height: 7px;
+    background-color: transparent;
+    margin: 20px;
+}
+
+.fuel__select {
+    outline: none;
+    appearance: none;
+    border: none;
+    width: 100%;
+    height: 100%;
+    padding: 0 20px 0 15px;
+    background-color: transparent;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    cursor: pointer;
+}
+
+.fuel__input-container_range {
+    position: relative;
+}
+
+.fuel__result-conainer {
+    width: 558px;
+    padding: 40px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-top: 78px;
+}
+
+.fuel__result-title {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+    margin: 0 0 16px;
+    padding: 0;
+}
+
+.fuel__line {
+    width: 100%;
+    height: 1px;
+    background-color: #E7E7E7;
+}
+
+.fuel__price-container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 16px 0;
+}
+
+.fuel__price {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.4;
+    color: #000000;
+    margin: 0;
+    padding: 0;
+}
+
+.fuel__price_bold {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.fuel__price-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.fuel__price-description {
+    max-width: 346px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #565656;
+    margin: 10px 0 0;
+    padding: 0;
+}
+
+.fuel__submit-btn {
+    width: 258px;
+    height: 46px;
+    background: #098FCF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 16px;
+    color: #FFFFFF;
+    margin-top: 15px;
+    border: none;
+}
+
+.fuel__submit-btn:hover {
+    opacity: 0.7;
+    cursor: pointer;
+}

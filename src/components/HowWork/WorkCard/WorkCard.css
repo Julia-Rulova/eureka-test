@@ -1,0 +1,71 @@
+.card {
+    max-width: 291px;
+    padding: 30px 40px 30px 30px;
+    background-color: #043C77;
+    margin-right: 31px;
+}
+
+.card:last-of-type {
+    margin: 0;
+}
+
+.card__header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.card__icon {
+    width: 64px;
+    height: 64px;
+    background-color: transparent;
+}
+
+.card__time-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.card__time {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: right;
+    color: #FFFFFF;
+    margin: 0 0 17px;
+    padding: 0;
+}
+
+.card__arrow {
+    width: 59px;
+    height: 14px;
+    background-color: transparent;
+}
+
+.card__title {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 26px;
+    color: #FFFFFF;
+    margin: 30px 0 24px;
+    padding: 0;
+}
+
+.card__description {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.4;
+    color: #FFFFFF;
+    margin: 0;
+    padding: 0;
+}
+
+.card__description_two {
+    margin-top: 30px;
+}
