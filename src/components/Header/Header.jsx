@@ -6,7 +6,7 @@ import account from "../../images/account.svg";
 
 export default function Header() {
     return (
-        <section className="header">
+        <header className="header">
             <img className="header__logo" src={logo} alt="логотип." />
             <div className="header__phone-container">
                 <img className="header__phone-img" src={phone} alt="телефон." />
@@ -19,6 +19,6 @@ export default function Header() {
                     Личный кабинет
                 </button>
             </div>
-        </section>
+        </header>
     )
 }

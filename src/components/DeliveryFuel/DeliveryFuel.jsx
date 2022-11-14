@@ -39,7 +39,6 @@ export default function DeliveryFuel() {
                         <input
                             className="fuel__input fuel__input_black"
                             id="volume"
-                            type="number"
                             min={10}
                             max={6000}
                             step={1}
@@ -47,6 +46,7 @@ export default function DeliveryFuel() {
                             onChange={e => setVolumeValue(e.target.value)}
                             required
                         />
+                        <p className="fuel__volume">литр.</p>
                         <Slider
                             min={10}
                             max={6000}

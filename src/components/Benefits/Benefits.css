@@ -1,0 +1,26 @@
+.benefits {
+    width: calc(100% - 160px * 2);
+    max-width: 1120px;
+    background-color: #F9F9F9;
+    padding: 80px 160px 72px;
+    display: flex;
+    flex-direction: column;
+}
+
+.benefits__title {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    color: #000000;
+    margin: 0 0 48px;
+    padding: 0;
+}
+
+.benefits__list {
+    max-width: 1120px;
+    display: grid;
+    grid-gap: 30px;
+    grid-template-columns: repeat(3, 353px);
+}

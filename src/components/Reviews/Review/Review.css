@@ -1,0 +1,59 @@
+.review {
+    background-color: #fff;
+    width: 465px;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.review__name {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    color: #000000;
+    margin: 0 0 12px;
+    padding: 0;
+}
+
+.review__job {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    color: #565656;
+    max-width: 246px;
+    margin: 0;
+    padding: 0;
+}
+
+.review__text {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.4;
+    color: #000000;
+    margin: 40px 0 77px;
+}
+
+.review__btn {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 16px;
+    color: #098FCF;
+    padding: 0;
+    border: none;
+    background-color: transparent;
+    width: 80px;
+}
+
+.review__btn:hover {
+    opacity: 0.7;
+    cursor: pointer;
+}

@@ -56,6 +56,7 @@
     margin-top: 8px;
     padding: 13px 15px 16px 15px;
     outline: none;
+    position: relative;
 }
 
 input::-webkit-outer-spin-button,
@@ -65,6 +66,20 @@ input::-webkit-inner-spin-button {
 
 .fuel__input_black {
     color: #000000;
+}
+
+.fuel__volume {
+    position: absolute;
+    top: 36px;
+    right: 20px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+    margin: 0;
+    padding: 0;
 }
 
 .fuel__custom-select {
